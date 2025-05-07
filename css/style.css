@@ -1,0 +1,109 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #111;
+  color: #eee;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header .logo {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a {
+  color: #ddd;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a.active {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+#menu-icon {
+  display: none;
+}
+
+.bars-animation {
+  display: flex;
+  gap: 5px;
+  padding: 20px;
+}
+
+.bars-animation .bar {
+  width: 5px;
+  height: 20px;
+  background: #444;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+.home-detail h1 {
+  font-size: 3rem;
+}
+
+.home-detail h2 {
+  margin: 20px 0;
+}
+
+.sci a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-box {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.contact-detail i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.field-box input, .field-box textarea {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  background: #222;
+  border: none;
+  color: #fff;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
